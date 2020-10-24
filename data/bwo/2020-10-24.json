@@ -1,16 +1,9 @@
 [
   {
-    "count": 10,
-    "maximum": 100,
-    "percent": 10,
+    "count": 0,
+    "maximum": 0,
+    "percent": 70,
     "queue": 0,
-    "timestamp": "2020-10-24T14:26:29.000Z"
-  },
-  {
-    "count": 10,
-    "maximum": 100,
-    "percent": 10,
-    "queue": 0,
-    "timestamp": "2020-10-24T14:26:59.000Z"
+    "timestamp": "2020-10-24T14:57:42.000Z"
   }
 ]
