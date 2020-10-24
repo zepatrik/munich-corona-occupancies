@@ -1,2 +1,1 @@
 # Munich Corona Occupancies
-
