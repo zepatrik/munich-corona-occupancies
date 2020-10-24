@@ -33,7 +33,7 @@ function writeOccupancy(occupancy, location) {
     })
     const data = [{ ...occupancy, timestamp: timestamp }]
     console.log(JSON.stringify(data))
-    return fs.promises.writeFile(filepath, JSON.stringify(data), 'utf8')
+    return fs.promises.writeFile(filepath, JSON.stringify(data,null,2), 'utf8')
   }
 }
 
