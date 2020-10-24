@@ -1,5 +1,6 @@
 const { argv, exit } = require('process')
-const { bwo } = require('./src/fetchers/index')
+const { bwo, swm } = require('./src/fetchers/index')
+const swmMappings = require('./src/helpers/swm_mapping')
 
 var allCases = []
 const registerCase = (c) => {
@@ -11,6 +12,16 @@ const main = async () => {
   switch (argv[2]) {
     case registerCase('bwo'):
       await bwo().then(console.log)
+      break
+    case registerCase('swm'):
+      await swm()
+        .then((data) =>
+          data.map(({ swmId, ...rest }) => ({
+            ...swmMappings[swmId],
+            ...rest
+          }))
+        )
+        .then(console.log)
       break
     default:
       console.error(
