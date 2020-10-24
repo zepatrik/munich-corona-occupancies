@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier -w \"**/*.{js,json,md}\"",
-    "format:check": "prettier \"**/*.{js,json,md}\"",
-    "scrape": "node main.js"
+    "scrape": "node main.js",
+    "format:check": "prettier -c \"**/*.{js,json,md}\""
   },
   "repository": {
     "type": "git",
