@@ -1,3 +1,3 @@
 module.exports = {
-    bwo: require("./bwo")
+  bwo: require('./bwo')
 }

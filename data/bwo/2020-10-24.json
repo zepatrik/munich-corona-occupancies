@@ -1,9 +1,9 @@
 [
-    {
-        "count": 10,
-        "maximum": 100,
-        "percent": 10,
-        "queue": 0,
-        "timestamp": "13:20"
-    }
+  {
+    "count": 10,
+    "maximum": 100,
+    "percent": 10,
+    "queue": 0,
+    "timestamp": "13:20"
+  }
 ]
