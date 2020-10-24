@@ -16,3 +16,9 @@ jobs:
           node-version: 14.4.0
       - run: npm i
       - run: npm run scrape
+      - run: |
+          git config --global user.email "zepatrik@users.noreply.github.com"
+          git config --global user.name "zepatrik"
+          git add -A
+          git commit -a -m "chore: update stats from $(date +%s)"
+          git push origin HEAD:main
