@@ -13,7 +13,8 @@ const fetcher = () =>
     body: 'action=cxo_get_crowd_indicator',
     method: 'POST',
     mode: 'cors'
-  }).then((res) => res.json())
-// .then(({ percent, queue }) => ({ percent, queue }))
+  })
+    .then((res) => res.json())
+    .then(({ percent, queue }) => ({ percent, queue }))
 
 module.exports = fetcher
