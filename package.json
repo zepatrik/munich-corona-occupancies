@@ -1,0 +1,26 @@
+{
+  "name": "munich-corona-occupancies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zepatrik/munich-corona-occupancies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zepatrik/munich-corona-occupancies/issues"
+  },
+  "homepage": "https://github.com/zepatrik/munich-corona-occupancies#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "ory-prettier-styles": "^1.0.1",
+    "prettier": "^2.1.2"
+  }
+}
