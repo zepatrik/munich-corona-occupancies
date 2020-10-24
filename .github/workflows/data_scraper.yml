@@ -14,11 +14,12 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.4.0
-      - run: npm i
+      - run: npm ci
       - run: npm run scrape
+      - run: npm run format
       - run: |
           git config --global user.email "zepatrik@users.noreply.github.com"
           git config --global user.name "zepatrik"
           git add -A
-          git commit -a -m "chore: update stats from $(date +%s)"
+          git commit -a -m "autogen: update data on $(TZ=Europe/Berlin date '+%F %R')"
           git push origin HEAD:main
