@@ -481,5 +481,12 @@
     "percent": 24,
     "queue": 0,
     "timestamp": "2020-10-25T14:24:18.000Z"
+  },
+  {
+    "count": 14,
+    "maximum": 51,
+    "percent": 27,
+    "queue": 0,
+    "timestamp": "2020-10-25T14:32:00.000Z"
   }
 ]
