@@ -649,5 +649,47 @@
     "percent": 37,
     "queue": 0,
     "timestamp": "2020-10-26T18:41:08.000Z"
+  },
+  {
+    "count": 23,
+    "maximum": 67,
+    "percent": 34,
+    "queue": 0,
+    "timestamp": "2020-10-26T18:46:37.000Z"
+  },
+  {
+    "count": 24,
+    "maximum": 67,
+    "percent": 36,
+    "queue": 0,
+    "timestamp": "2020-10-26T18:52:08.000Z"
+  },
+  {
+    "count": 25,
+    "maximum": 67,
+    "percent": 37,
+    "queue": 0,
+    "timestamp": "2020-10-26T18:57:31.000Z"
+  },
+  {
+    "count": 28,
+    "maximum": 67,
+    "percent": 42,
+    "queue": 0,
+    "timestamp": "2020-10-26T19:16:13.000Z"
+  },
+  {
+    "count": 29,
+    "maximum": 67,
+    "percent": 43,
+    "queue": 0,
+    "timestamp": "2020-10-26T19:34:19.000Z"
+  },
+  {
+    "count": 28,
+    "maximum": 67,
+    "percent": 42,
+    "queue": 0,
+    "timestamp": "2020-10-26T19:44:33.000Z"
   }
 ]
