@@ -19,9 +19,7 @@
   "homepage": "https://github.com/zepatrik/munich-corona-occupancies#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "node-fetch": "^2.6.1",
-    "request": "^2.88.2",
-    "request-promise": "^4.2.6"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "ory-prettier-styles": "^1.0.1",

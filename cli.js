@@ -1,5 +1,5 @@
 const { argv, exit } = require('process')
-const { bwo, swm } = require('./src/fetchers/index')
+const { bwo, swm, bwei } = require('./src/fetchers/index')
 const swmMappings = require('./src/helpers/swm_mapping')
 
 var allCases = []
@@ -22,6 +22,9 @@ const main = async () => {
           }))
         )
         .then(console.log)
+      break
+    case registerCase('einstein'):
+      await bwei().then(console.log)
       break
     default:
       console.error(
