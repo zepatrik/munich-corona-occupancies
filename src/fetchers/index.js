@@ -1,5 +1,5 @@
 module.exports = {
   bwo: require('./bwo'),
   swm: require('./swm'),
-  bwei: require('.bwei')
+  b_ei: require('./b_ei')
 }

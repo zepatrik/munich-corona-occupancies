@@ -1,20 +1,24 @@
-const rp = require('request-promise')
-const $ = require('cheerio')
+const fetch = require('node-fetch')
+const { parse } = require('node-html-parser')
 
 const fetcher = () =>
-  rp(
+  fetch(
     'https://www.boulderado.de/boulderadoweb/gym-clientcounter/index.php?mode=get&token=eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IkVpbnN0ZWluTSJ9.uH9xRoVykz5fzofHc-JGigeHreaeTayel49o3FR6cNA'
   )
+    .then((res) => res.text())
     .then((html) => {
+      const root = parse(html)
       const count = parseInt(
-        $('div.actcounter-content', html).children().text()
+        root.querySelector('div.actcounter-content').childNodes[0].text
       )
       const free = parseInt(
-        $('div.freecounter-content', html).children().text()
+        root.querySelector('div.freecounter-content').childNodes[0].text
       )
+
       const maximum = count + free
-      const percent = (count / maximum) * 100
+      const percent = parseInt((count / maximum) * 100)
       return { count, percent, maximum }
     })
     .then((data) => data)
+
 module.exports = fetcher
