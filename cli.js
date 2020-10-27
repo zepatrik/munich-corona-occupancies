@@ -1,5 +1,6 @@
 const { argv, exit } = require('process')
 const { bwo, swm, b_ei } = require('./src/fetchers/index')
+
 const swmMappings = require('./src/helpers/swm_mapping')
 
 var allCases = []
