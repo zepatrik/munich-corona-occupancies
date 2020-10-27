@@ -5,9 +5,9 @@
   "prettier": "ory-prettier-styles",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier -w \"**/*.{js,json,md}\"",
+    "format": "prettier -w .",
     "scrape": "node main.js",
-    "format:check": "prettier -c \"**/*.{js,json,md}\""
+    "format:check": "prettier -c ."
   },
   "repository": {
     "type": "git",
