@@ -16,9 +16,8 @@ const fetcher = () =>
       )
 
       const maximum = count + free
-      const percent = parseInt((count / maximum) * 100)
+      const percent = Math.round((count / maximum) * 100)
       return { count, percent, maximum }
     })
-    .then((data) => data)
 
 module.exports = fetcher
