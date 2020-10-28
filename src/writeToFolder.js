@@ -28,11 +28,12 @@ function writeOccupancy(occupancy, location) {
       })
       .then((data) => fs.promises.writeFile(filepath, data))
   } else {
-    fs.promises.mkdir(dir, { recursive: true }, (err) => {
-      if (err) throw err
-    })
     const data = [{ ...defaultOccupancy, ...occupancy, timestamp: timestamp }]
-    return fs.promises.writeFile(filepath, JSON.stringify(data), 'utf8')
+    return fs.promises
+      .mkdir(dir, { recursive: true }, (err) => {
+        if (err) throw err
+      })
+      .then(() => fs.promises.writeFile(filepath, JSON.stringify(data), 'utf8'))
   }
 }
 
