@@ -15,12 +15,12 @@ const fetcher = () =>
         .map((badge, i) => ({
           davId: dav_mapping[i].id,
           maximum: davMapping[i].maximum,
-          count: parseInt(badge.text)
+          currentFree: parseInt(badge.text)
         }))
-        .map(({ maximum, count, ...rest }) => ({
+        .map(({ maximum, currentFree, ...rest }) => ({
           maximum,
-          count,
-          percent: Math.round((count / maximum) * 100),
+          count: maximum - currentFree,
+          percent: 100 - Math.round((currentFree / maximum) * 100),
           ...rest
         }))
     })
