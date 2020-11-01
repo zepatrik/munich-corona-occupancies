@@ -12,8 +12,8 @@ function writeOccupancy(occupancy, location) {
   const timestamp = new Date(
     new Date().toLocaleString('en-us', { timeZone: 'Europe/Berlin' })
   )
-  const day = timestamp.getDate()
-  const month = timestamp.getMonth() + 1
+  const day = timestamp.getDate().padStart(2, '0')
+  const month = (timestamp.getMonth() + 1).padStart(2, '0')
   const year = timestamp.getFullYear()
   const filename = [year, month, day].join('-')
   const dir = path.join('data', location)
