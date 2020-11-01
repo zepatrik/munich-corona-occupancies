@@ -5,6 +5,8 @@ on:
         description: maximum number of issues to create
         required: true
         default: '5'
+  schedule:
+    - cron: '0 7 * * *'
 
 jobs:
   find_closed_references:
