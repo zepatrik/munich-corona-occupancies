@@ -1,0 +1,50 @@
+{
+    "boulder_welt_ost": {
+        "name": "Boulder Welt Ost",
+        "type": "boulder",
+        "lat": "48.1257912",
+        "lon": "11.6110973",
+        "web_url": "https://www.boulderwelt-muenchen-ost.de/",
+        "google_place_id": "ChIJX4daR4bfnUcRu6Tpwgz4uB8"
+    },
+    "boulder_einstein": {
+        "name": "Einstein",
+        "type": "boulder",
+        "lat": "48.1405753",
+        "lon": "11.5206076",
+        "web_url": "https://boulderhalle-muc.de",
+        "google_place_id": "ChIJi9mLDyB2nkcR21ET5Jeq-S0"
+    },
+    "boulder_dav_thalkirchen":  {
+        "name": "DAV Thalkirchen Bouldern",
+        "type": "boulder",
+        "lat": "48.1067659",
+        "lon": "11.5435042",
+        "web_url": "https://kbthalkirchen.de",
+        "google_place_id": "ChIJ2z66LC7fnUcRBSwI-zGNxNE"
+    },
+    "climb_dav_thalkirchen":  {
+        "name": "DAV Thalkirchen Klettern",
+        "type": "climb",
+        "lat": "48.1067659",
+        "lon": "11.5435042",
+        "web_url": "https://kbthalkirchen.de",
+        "google_place_id": "ChIJ2z66LC7fnUcRBSwI-zGNxNE"
+    },
+    "boulder_dav_toelz":  {
+        "name": "DAV Bad Tölz Klettern",
+        "type": "boulder",
+        "lat": "48.1067659",
+        "lon": "11.5435042",
+        "web_url": "https://www.kletterzentrum-badtoelz.de/",
+        "google_place_id": "ChIJI0VPmmmUnUcRPCwPZYD-cKs"
+    },
+    "climb_dav_toelz":  {
+        "name": "DAV Bad Tölz Klettern",
+        "type": "climb",
+        "lat": "48.1067659",
+        "lon": "11.5435042",
+        "web_url": "https://www.kletterzentrum-badtoelz.de/",
+        "google_place_id": "ChIJI0VPmmmUnUcRPCwPZYD-cKs"
+    }
+}
