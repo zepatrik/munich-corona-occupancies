@@ -1,5 +1,5 @@
 const { argv, exit } = require('process')
-const { bwo, swm, b_ei, dav } = require('./src/fetchers/index')
+const { bwo, swm, einstein, dav } = require('./src/fetchers/index')
 
 const swmMappings = require('./src/helpers/swm_mapping')
 
@@ -24,8 +24,8 @@ const main = async () => {
         )
         .then(console.log)
       break
-    case registerCase('b_ei'):
-      await b_ei().then(console.log)
+    case registerCase('einstein'):
+      await einstein().then(console.log)
       break
     case registerCase('dav'):
       await dav().then(console.log)
