@@ -1,10 +1,10 @@
 module.exports = [
-  { id: 'k_dav_toelz', maximum: 66 },
-  { id: 'b_dav_toelz', maximum: 65 },
-  { id: 'k_dav_thalk', maximum: 177 },
-  { id: 'b_dav_thalk', maximum: 72 },
-  { id: 'k_dav_gilch', maximum: 80 },
-  { id: 'b_dav_gilch', maximum: 24 },
-  { id: 'k_dav_freim', maximum: 98 },
-  { id: 'b_dav_freim', maximum: 120 }
+  { id: 'climb_dav_toelz', maximum: 66 },
+  { id: 'boulder_dav_toelz', maximum: 65 },
+  { id: 'climb_dav_thalkirchen', maximum: 177 },
+  { id: 'boulder_dav_thalkirchen', maximum: 72 },
+  { id: 'climb_dav_gilching', maximum: 80 },
+  { id: 'boulder_dav_gilching', maximum: 24 },
+  { id: 'climb_dav_freimann', maximum: 98 },
+  { id: 'boulder_dav_freimann', maximum: 120 }
 ]
