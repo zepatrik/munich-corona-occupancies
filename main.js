@@ -10,7 +10,8 @@ async function run() {
     swm().then((data) =>
       Promise.all(
         data.map(({ swmId, ...rest }) =>
-          writeOccupancy(rest, swmMapping[swmId].short)
+          writeOccupancy(rest,
+            swmMapping[swmId].short)
         )
       )
     ),
