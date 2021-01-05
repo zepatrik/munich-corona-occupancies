@@ -22,3 +22,8 @@ jobs:
       - uses: ory/prettier-styles@v1
         with:
           npmRunArgs: ${{ github.event.inputs.npmRunArgs || 'format:check' }}
+      - run: |-
+          git config --local user.email "zepatrik@users.noreply.github.com"
+          git config --local user.name "zepatrik"
+          git add *
+          git diff --cached --exit-code && git commit -a -m "autogen: run npm format" && git push "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:${GITHUB_REF#"refs/heads/"} || true
