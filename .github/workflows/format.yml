@@ -21,4 +21,4 @@ jobs:
       - uses: actions/checkout@v2
       - uses: ory/prettier-styles@v1
         with:
-          npmRunArgs: ${{ github.event.inputs.npmRunArgs || "format:check" }}
+          npmRunArgs: ${{ github.event.inputs.npmRunArgs || 'format:check' }}
