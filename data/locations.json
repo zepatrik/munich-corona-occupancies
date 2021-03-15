@@ -32,7 +32,7 @@
         "google_place_id": "ChIJ2z66LC7fnUcRBSwI-zGNxNE"
     },
     "boulder_dav_toelz":  {
-        "name": "DAV Bad Tölz Klettern",
+        "name": "DAV Bad Tölz Bouldern",
         "type": "boulder",
         "lat": "48.1067659",
         "lon": "11.5435042",
@@ -46,5 +46,83 @@
         "lon": "11.5435042",
         "web_url": "https://www.kletterzentrum-badtoelz.de/",
         "google_place_id": "ChIJI0VPmmmUnUcRPCwPZYD-cKs"
+    },
+    "boulder_dav_freimann" : {
+        "name": "DAV Freimann Bouldern"
+    },
+    "boulder_dav_gilching" : {
+        "name": "DAV Gilching Bouldern"
+
+    },
+    "climb_dav_freimann" : {
+        "name": "DAV Freimann Klettern"
+
+    },
+    "climb_dav_gilching" : {
+        "name": "DAV Gilching Klettern"
+
+    },
+    "sauna_cosima" : {
+        "name": "Cosima Wellness Sauna"
+
+    },
+    "sauna_dante" : {
+        "name": "Dante Bad Sauna"
+
+    },
+    "sauna_michaeli" : {
+        "name": "Michaeli Bad Sauna"
+
+
+    },
+    "sauna_nord" : {
+        "name": "Nordbad Sauna"
+
+    },
+    "sauna_prinzregenten" : {
+        "name": "Prinzregentenbad Sauna"
+
+    },
+    "sauna_sued" : {
+        "name": "Südbad Sauna"
+
+    },
+    "sauna_volk" : {
+        "name": "Müller'sches Volksbad Sauna"
+
+    },
+    "sauna_west" : {
+        "name": "Westbad Sauna"
+
+    },
+    "swim_cosima" : {
+        "name": "Cosima Wellness"
+
+    },
+    "swim_forstenried" : {
+        "name": "Bad Forstenrieder Park"
+
+    },
+    "swim_giesing": {
+        "name": "Bad Giesing-Harlaching"
+
+    },
+    "swim_michaeli": {
+        "name": "Michaeli Bad Schwimmen"
+    },
+    "swim_nord": {
+        "name": "Nordbad Schwimmen"
+    },
+    "swim_olympia" : {
+        "name": "Olympia-Schwimmhalle"
+    },
+    "swim_sued" : {
+        "name": "Südbad Schwimmen"
+    },
+    "swim_volk" : {
+        "name": "Müller'sches Volksbad Schwimmen"
+    },
+    "swim_west" : {
+        "name": "Westbad Schwimmen"
     }
 }
