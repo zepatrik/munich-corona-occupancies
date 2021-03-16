@@ -23,7 +23,8 @@
         "lat": "48.1067659",
         "lon": "11.5435042",
         "web_url": "https://kbthalkirchen.de",
-        "google_place_id": "ChIJ2z66LC7fnUcRBSwI-zGNxNE"
+        "google_place_id": "ChIJ2z66LC7fnUcRBSwI-zGNxNE",
+        "cid":"0xd1c48d31fb082c05"
     },
     "climb_dav_thalkirchen":  {
         "name": "DAV Thalkirchen Klettern",
@@ -31,7 +32,8 @@
         "lat": "48.1067659",
         "lon": "11.5435042",
         "web_url": "https://kbthalkirchen.de",
-        "google_place_id": "ChIJ2z66LC7fnUcRBSwI-zGNxNE"
+        "google_place_id": "ChIJ2z66LC7fnUcRBSwI-zGNxNE",
+        "cid":"0xd1c48d31fb082c05"
     },
     "boulder_dav_toelz":  {
         "name": "DAV Bad Tölz Bouldern",
@@ -39,7 +41,8 @@
         "lat": "48.1067659",
         "lon": "11.5435042",
         "web_url": "https://www.kletterzentrum-badtoelz.de/",
-        "google_place_id": "ChIJI0VPmmmUnUcRPCwPZYD-cKs"
+        "google_place_id": "ChIJI0VPmmmUnUcRPCwPZYD-cKs",
+        "cid":"0xab70fe80650f2c3c"
     },
     "climb_dav_toelz":  {
         "name": "DAV Bad Tölz Klettern",
@@ -47,84 +50,107 @@
         "lat": "48.1067659",
         "lon": "11.5435042",
         "web_url": "https://www.kletterzentrum-badtoelz.de/",
-        "google_place_id": "ChIJI0VPmmmUnUcRPCwPZYD-cKs"
+        "google_place_id": "ChIJI0VPmmmUnUcRPCwPZYD-cKs",
+        "cid":"0xab70fe80650f2c3c"
     },
     "boulder_dav_freimann" : {
-        "name": "DAV Freimann Bouldern"
+        "name": "DAV Freimann Bouldern",
+        "cid":"0xb281b831f8f26db1"
     },
     "boulder_dav_gilching" : {
-        "name": "DAV Gilching Bouldern"
+        "name": "DAV Gilching Bouldern",
+        "cid":"0xf82e3fb3e2721e45"
 
     },
     "climb_dav_freimann" : {
-        "name": "DAV Freimann Klettern"
+        "name": "DAV Freimann Klettern",
+        "cid":"0xb281b831f8f26db1"
 
     },
     "climb_dav_gilching" : {
-        "name": "DAV Gilching Klettern"
+        "name": "DAV Gilching Klettern",
+        "cid":"0xf82e3fb3e2721e45"
 
     },
     "sauna_cosima" : {
-        "name": "Cosima Wellness Sauna"
+        "name": "Cosima Wellness Sauna",
+        "cid":"0x7c03e069d2b11aa7"
 
     },
     "sauna_dante" : {
-        "name": "Dante Bad Sauna"
+        "name": "Dante Bad Sauna",
+        "cid":"0x34e55edcc55c1052"
 
     },
     "sauna_michaeli" : {
-        "name": "Michaeli Bad Sauna"
+        "name": "Michaeli Bad Sauna",
+        "cid":"0x787ed55a2aec775d"
 
 
     },
     "sauna_nord" : {
-        "name": "Nordbad Sauna"
+        "name": "Nordbad Sauna",
+        "cid":"0x6bca64d0f3009f64"
 
     },
     "sauna_prinzregenten" : {
-        "name": "Prinzregentenbad Sauna"
+        "name": "Prinzregentenbad Sauna",
+        "cid":"0x5afa2f0edac7abdd"
 
     },
     "sauna_sued" : {
-        "name": "Südbad Sauna"
+        "name": "Südbad Sauna",
+        "cid":"0xe12cede62207712b"
 
     },
     "sauna_volk" : {
-        "name": "Müller'sches Volksbad Sauna"
+        "name": "Müller'sches Volksbad Sauna",
+        "cid":"0xa9ad6a751114b402"
 
     },
     "sauna_west" : {
-        "name": "Westbad Sauna"
+        "name": "Westbad Sauna",
+        "cid":"0x24db71b42394cf00"
 
     },
     "swim_cosima" : {
-        "name": "Cosima Wellness"
+        "name": "Cosima Wellness",
+        "cid":"0x7c03e069d2b11aa7"
 
     },
     "swim_forstenried" : {
-        "name": "Bad Forstenrieder Park"
+        "name": "Bad Forstenrieder Park",
+        "cid":"0x4c71b67ace274182"
 
     },
     "swim_giesing": {
-        "name": "Bad Giesing-Harlaching"
+        "name": "Bad Giesing-Harlaching",
+        "cid":"0xe7610c1c3905c4b9"
 
     },
     "swim_michaeli": {
-        "name": "Michaeli Bad Schwimmen"
+        "name": "Michaeli Bad Schwimmen",
+        "cid":"0x787ed55a2aec775d"
+        
     },
     "swim_nord": {
-        "name": "Nordbad Schwimmen"
+        "name": "Nordbad Schwimmen",
+        "cid":"0x6bca64d0f3009f64"
     },
     "swim_olympia" : {
-        "name": "Olympia-Schwimmhalle"
+        "name": "Olympia-Schwimmhalle",
+        "cid":"0xcf67d452e716645e"
     },
     "swim_sued" : {
-        "name": "Südbad Schwimmen"
+        "name": "Südbad Schwimmen",
+        "cid":"0xe12cede62207712b"
     },
     "swim_volk" : {
-        "name": "Müller'sches Volksbad Schwimmen"
+        "name": "Müller'sches Volksbad Schwimmen",
+        "cid":"0xa9ad6a751114b402"
     },
     "swim_west" : {
-        "name": "Westbad Schwimmen"
+        "name": "Westbad Schwimmen",
+        "cid":"0x24db71b42394cf00"
     }
 }
