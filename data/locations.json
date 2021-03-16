@@ -5,7 +5,8 @@
         "lat": "48.1257912",
         "lon": "11.6110973",
         "web_url": "https://www.boulderwelt-muenchen-ost.de/",
-        "google_place_id": "ChIJX4daR4bfnUcRu6Tpwgz4uB8"
+        "google_place_id": "ChIJX4daR4bfnUcRu6Tpwgz4uB8",
+        "cid":"0x1fb8f80cc2e9a4bb"
     },
     "boulder_einstein": {
         "name": "Einstein",
@@ -13,7 +14,8 @@
         "lat": "48.1405753",
         "lon": "11.5206076",
         "web_url": "https://boulderhalle-muc.de",
-        "google_place_id": "ChIJi9mLDyB2nkcR21ET5Jeq-S0"
+        "google_place_id": "ChIJi9mLDyB2nkcR21ET5Jeq-S0",
+        "cid":"0x2df9aa97e41351db"
     },
     "boulder_dav_thalkirchen":  {
         "name": "DAV Thalkirchen Bouldern",
