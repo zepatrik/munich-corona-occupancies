@@ -105,7 +105,7 @@
     },
     "sauna_volk" : {
         "name": "Müller'sches Volksbad Sauna",
-        "cid":"0xa9ad6a751114b402"
+        "cid":"0xce78b1c809f04a77"
 
     },
     "sauna_west" : {
@@ -147,7 +147,7 @@
     },
     "swim_volk" : {
         "name": "Müller'sches Volksbad Schwimmen",
-        "cid":"0xa9ad6a751114b402"
+        "cid":"0xce78b1c809f04a77"
     },
     "swim_west" : {
         "name": "Westbad Schwimmen",
