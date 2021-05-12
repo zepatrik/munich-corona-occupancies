@@ -5,7 +5,10 @@ const swmMapping = require('./src/helpers/swm_mapping')
 // run fetcher
 async function run() {
   await Promise.all([
+<<<<<<< HEAD
 
+=======
+>>>>>>> a97eb91e729d504ac71a68992a6b6187af7ddc65
     bwo().then((data) => writeOccupancy(data, 'boulder_welt_ost')),
     einstein().then((data) => writeOccupancy(data, 'boulder_einstein')),
     swm().then((data) =>
