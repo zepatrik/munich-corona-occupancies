@@ -1,6 +1,6 @@
 module.exports = {
-  bwo: require('./bwo'),
+  boulderwelt: require('./boulderwelt'),
   swm: require('./swm'),
-  b_ei: require('./b_ei'),
+  einstein: require('./einstein'),
   dav: require('./dav')
 }
