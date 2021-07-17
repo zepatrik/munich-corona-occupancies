@@ -1,5 +1,11 @@
 const { argv, exit } = require('process')
-const { boulderwelt, swm, einstein, dav } = require('./src/fetchers/index')
+const {
+  boulderwelt,
+  swm,
+  einstein,
+  dav,
+  heavensgate
+} = require('./src/fetchers/index')
 
 const swmMappings = require('./src/helpers/swm_mapping')
 
@@ -11,7 +17,7 @@ const registerCase = (c) => {
 
 const main = async () => {
   switch (argv[2]) {
-    case registerCase('bwo'):
+    case registerCase('boulderwelt'):
       await boulderwelt().then(console.log)
       break
     case registerCase('swm'):
@@ -24,11 +30,14 @@ const main = async () => {
         )
         .then(console.log)
       break
-    case registerCase('b_ei'):
+    case registerCase('einstein'):
       await einstein().then(console.log)
       break
     case registerCase('dav'):
       await dav().then(console.log)
+      break
+    case registerCase('heavensgate'):
+      await heavensgate().then(console.log)
       break
     default:
       console.error(
