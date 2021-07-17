@@ -1,12 +1,14 @@
 const writeOccupancy = require('./src/writeToFolder')
-const { bwo, swm, b_ei, dav } = require('./src/fetchers/index')
+const { boulderwelt, swm, einstein, dav } = require('./src/fetchers/index')
 const swmMapping = require('./src/helpers/swm_mapping')
 
 // run fetcher
 async function run() {
   await Promise.all([
-    bwo().then((data) => writeOccupancy(data, 'bwo')),
-    b_ei().then((data) => writeOccupancy(data, 'b_ei')),
+    boulderwelt().then((data) =>
+      Promise.all(data.map(({ id, percent, queue }) => writeOccupancy({ percent, queue }, id)))
+    ),
+    einstein().then((data) => writeOccupancy(data, 'b_ei')),
     swm().then((data) =>
       Promise.all(
         data.map(({ swmId, ...rest }) =>
