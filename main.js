@@ -6,7 +6,11 @@ const swmMapping = require('./src/helpers/swm_mapping')
 async function run() {
   await Promise.all([
     boulderwelt().then((data) =>
-      Promise.all(data.map(({ id, percent, queue }) => writeOccupancy({ percent, queue }, id)))
+      Promise.all(
+        data.map(({ id, percent, queue }) =>
+          writeOccupancy({ percent, queue }, id)
+        )
+      )
     ),
     einstein().then((data) => writeOccupancy(data, 'b_ei')),
     swm().then((data) =>
