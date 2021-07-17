@@ -3,7 +3,7 @@ const mappings = require('../helpers/bw_mapping')
 
 const fetcher = () =>
   Promise.all(
-    mappings.map(({ id, baseUrl }) =>
+    mappings.map(({ bwId, baseUrl }) =>
       fetch(baseUrl + '/wp-admin/admin-ajax.php', {
         headers: {
           accept: '*/*',
@@ -18,7 +18,7 @@ const fetcher = () =>
         mode: 'cors'
       })
         .then((res) => res.json())
-        .then(({ percent, queue }) => ({ id, percent, queue }))
+        .then(({ percent, queue }) => ({ bwId, percent, queue }))
     )
   )
 
