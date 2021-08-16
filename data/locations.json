@@ -1,0 +1,135 @@
+{
+    "b_bw_ost": {
+        "name": "Boulder Welt Ost",
+        "type": "boulder",
+        "lat": "48.1257912",
+        "lon": "11.6110973",
+        "web_url": "https://www.boulderwelt-muenchen-ost.de/",
+        "google_place_id": "ChIJX4daR4bfnUcRu6Tpwgz4uB8"
+    },
+
+    "b_bw_sued": {
+        "name": "Boulder Welt Süd",
+        "type": "boulder"
+    },
+
+    "b_bw_west":{
+        "name": "BoulderWelt West",
+        "type": "boulder"
+    },
+
+    "b_ei": {
+        "name": "Einstein",
+        "type": "boulder",
+        "lat": "48.1405753",
+        "lon": "11.5206076",
+        "web_url": "https://boulderhalle-muc.de",
+        "google_place_id": "ChIJi9mLDyB2nkcR21ET5Jeq-S0"
+    },
+    "b_dav_thalk":  {
+        "name": "DAV Thalkirchen Bouldern",
+        "type": "boulder",
+        "lat": "48.1067659",
+        "lon": "11.5435042",
+        "web_url": "https://kbthalkirchen.de",
+        "google_place_id": "ChIJ2z66LC7fnUcRBSwI-zGNxNE"
+    },
+    "k_dav_thalk":  {
+        "name": "DAV Thalkirchen Klettern",
+        "type": "climb",
+        "lat": "48.1067659",
+        "lon": "11.5435042",
+        "web_url": "https://kbthalkirchen.de",
+        "google_place_id": "ChIJ2z66LC7fnUcRBSwI-zGNxNE"
+    },
+    "b_dav_toelz":  {
+        "name": "DAV Bad Tölz Bouldern",
+        "type": "boulder",
+        "lat": "48.1067659",
+        "lon": "11.5435042",
+        "web_url": "https://www.kletterzentrum-badtoelz.de/",
+        "google_place_id": "ChIJI0VPmmmUnUcRPCwPZYD-cKs",
+    },
+    "k_dav_toelz":  {
+        "name": "DAV Bad Tölz Klettern",
+        "type": "climb",
+        "lat": "48.1067659",
+        "lon": "11.5435042",
+        "web_url": "https://www.kletterzentrum-badtoelz.de/",
+        "google_place_id": "ChIJI0VPmmmUnUcRPCwPZYD-cKs",
+        "cid":"0xab70fe80650f2c3c"
+    },
+    "b_dav_freim" : {
+        "name": "DAV Freimann Bouldern"
+    },
+    "b_dav_gilch" : {
+        "name": "DAV Gilching Bouldern"
+
+    },
+    "k_dav_freim" : {
+        "name": "DAV Freimann Klettern"
+
+    },
+    "k_dav_gilch" : {
+        "name": "DAV Gilching Klettern"
+
+    },
+    "s_cosi" : {
+        "name": "Cosima Wellness Sauna"
+
+    },
+    "s_dante" : {
+        "name": "Dante Bad Sauna"
+
+    },
+    "s_micha" : {
+        "name": "Michaeli Bad Sauna"
+    },
+    "s_nord" : {
+        "name": "Nordbad Sauna"
+
+    },
+    "s_prinz" : {
+        "name": "Prinzregentenbad Sauna"
+    },
+    "s_sued" : {
+        "name": "Südbad Sauna"
+    },
+    "s_volk" : {
+        "name": "Müller'sches Volksbad Sauna"
+    },
+    "s_west" : {
+        "name": "Westbad Sauna"
+    },
+    "s_cosima" : {
+        "name": "Cosima Wellness"
+
+    },
+    "b_forst" : {
+        "name": "Bad Forstenrieder Park"
+
+    },
+    "b_gies": {
+        "name": "Bad Giesing-Harlaching"
+
+    },
+    "b_michaeli": {
+        "name": "Michaeli Bad Schwimmen"
+        
+    },
+    "b_nord": {
+        "name": "Nordbad Schwimmen"
+    },
+    "b_oly" : {
+        "name": "Olympia-Schwimmhalle"
+    },
+    "b_sued" : {
+        "name": "Südbad Schwimmen"
+    },
+    "b_volk" : {
+        "name": "Müller'sches Volksbad Schwimmen"
+    },
+    "b_west" : {
+        "name": "Westbad Schwimmen"
+    }
+}
