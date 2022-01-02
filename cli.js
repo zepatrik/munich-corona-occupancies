@@ -4,7 +4,8 @@ const {
   swm,
   einstein,
   dav,
-  heavensgate
+  heavensgate,
+  steinbock
 } = require('./src/fetchers/index')
 
 const swmMappings = require('./src/helpers/swm_mapping')
@@ -38,6 +39,9 @@ const main = async () => {
       break
     case registerCase('heavensgate'):
       await heavensgate().then(console.log)
+      break
+    case registerCase('steinbock'):
+      await steinbock().then(console.log)
       break
     default:
       console.error(

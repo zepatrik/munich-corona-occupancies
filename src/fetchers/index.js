@@ -3,5 +3,6 @@ module.exports = {
   swm: require('./swm'),
   einstein: require('./einstein'),
   dav: require('./dav'),
-  heavensgate: require('./heavensgate')
+  heavensgate: require('./heavensgate'),
+  steinbock: require('./steinbock')
 }
