@@ -4,7 +4,8 @@ const {
   swm,
   einstein,
   dav,
-  heavensgate
+  heavensgate,
+  steinbock
 } = require('./src/fetchers/index')
 const swmMapping = require('./src/helpers/swm_mapping')
 
@@ -29,7 +30,8 @@ async function run() {
       Promise.all(
         data.map(({ heavensId, ...rest }) => writeOccupancy(rest, heavensId))
       )
-    )
+    ),
+    steinbock().then((data) => writeOccupancy(data, 'b_sb'))
   ])
 }
 
