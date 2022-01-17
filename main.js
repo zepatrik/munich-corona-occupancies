@@ -15,7 +15,7 @@ async function run() {
     boulderwelt().then((data) =>
       Promise.all(data.map(({ bwId, ...rest }) => writeOccupancy(rest, bwId)))
     ),
-    einstein().then((data) => writeOccupancy(data, 'einstein')),
+    einstein().then((data) => writeOccupancy(data, 'b_ei')),
     swm().then((data) =>
       Promise.all(
         data.map(({ swmId, ...rest }) =>
