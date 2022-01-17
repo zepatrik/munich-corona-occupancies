@@ -26,11 +26,7 @@ async function run() {
     dav().then((data) =>
       Promise.all(data.map(({ davId, ...rest }) => writeOccupancy(rest, davId)))
     ),
-    heavensgate().then((data) =>
-      Promise.all(
-        data.map(({ heavensId, ...rest }) => writeOccupancy(rest, heavensId))
-      )
-    ),
+    heavensgate().then((data) => writeOccupancy(data, 'heavensgate')),
     steinbock().then((data) => writeOccupancy(data, 'b_sb'))
   ])
 }
